@@ -23,6 +23,3 @@ archive(){
 
 find_log "$1"
 archive "$1"
-
-#Archive directory not created or used:
-# No logging of archive date/time: ???
