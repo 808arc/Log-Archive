@@ -4,7 +4,7 @@ find_log(){
     path=$1
     find "$path" -type d
 
-    if [ ! -d "$path"]; then
+    if [ ! -d "$path" ]; then
         echo "Error: $path does not exist"
         exit
     else
@@ -18,7 +18,7 @@ archive(){
     archive_dir="archive"
 
     mkdir -p "$archive_dir"
-    tar -czf "${arichve_dir}/${dir_name}_archive_${timestamp}.tar.gz" "$path"
+    tar -czf "${archive_dir}/${dir_name}_archive_${timestamp}.tar.gz" "$path"
 }
 
 find_log "$1"
