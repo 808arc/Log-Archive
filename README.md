@@ -21,24 +21,18 @@ A simple CLI tool for archiving logs on Unix-based systems. This script compress
 
 ## 📦 Usage
 
-'''
-./log_archive.sh <log-directory>
-'''
+
+'/log_archive.sh <log-directory>'
 
 
 ## Example
-'''
-./log_archive.sh /var/log
-'''
+'./log_archive.sh /var/log'
 This will create a compressed archive like:
-'''
-archive/log_archive_20250422_223404.tar.gz
-'''
+'archive/log_archive_20250422_223404.tar.gz'
 
 
 ## Permissions 
 
 If you encounter Permission denied errors (especially when accessing system logs), run the script with sudo:
-'''
-sudo ./log_archive.sh /var/log
-'''
+
+'sudo ./log_archive.sh /var/log'
