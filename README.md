@@ -35,4 +35,6 @@ This will create a compressed archive like:
 
 If you encounter Permission denied errors (especially when accessing system logs), run the script with sudo:
 
-'sudo ./log_archive.sh /var/log'
+```
+sudo ./log_archive.sh /var/log
+```
